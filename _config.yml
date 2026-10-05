@@ -142,32 +142,9 @@ collections:
 defaults:
   - scope:
       path: ""
-      type: posts
-    values:
-      image:
-      comments: true
-      layout: single
-      categories:
-      tags:
-      archive:
-        title: posts by date
-        subtitle: some witty subtitle go here
-      related: true
-  - scope:
-      path: ""
       type: pages
     values:
       layout: single
-      comments: true
-      related: true
-  - scope:
-      path: ""
-      type: pages
-      values:
-        layout: splash
-    exclude:
-      - "**/404.md"
-      - "**/cv.md"
 
 plugins:
   - jekyll-gist
